@@ -45,7 +45,7 @@ do n=1,npart
     do i=1, ndim
       s = s + v(n, i)**2
     end do
-    s = s/2./mass(n)
+    s = s/2.*mass(n)
 output = output + s
 end do
 
